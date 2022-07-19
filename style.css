@@ -219,14 +219,77 @@ body{
 }
 .p8{
     max-width: 392px;
+    margin-bottom: 850px;
 }
 .block5{
     position: relative;
-
     padding-top: 128px;
-
 }
 .img5{
     position: absolute;
     top: 433px;
+}
+.img6{
+    position: absolute;
+    top: 88%;
+    right: 38%;
+    max-width: 42px;
+    width: 3%;
+}
+.img7{
+    position: absolute;
+    top: 132%;
+    right: 34%;
+    max-width: 42px;
+    width: 3%;
+}
+.img8{
+    position: absolute;
+    top: 158%;
+    right: 56%;
+    max-width: 42px;
+    width: 3%;
+}
+.img9{
+    position: absolute;
+    top: 160%;
+    right: 74%;
+    max-width: 42px;
+    width: 3%;
+}
+.block6{
+    position: relative;
+    height: 850px;
+    background-image: url(./image/light.png);
+    background-size: cover;
+}
+.img11{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.img10{
+    width: 20%;
+    max-width: 172px;
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    z-index: 2;
+}
+.p9{
+    max-width: 80%;
+}
+.block7bot{
+    border-bottom: 2px solid #2E2E2E;
+}
+.footer{
+    margin-top: 230px;
+}
+.div_foot{
+    margin-bottom: 95px;
+    margin-top: 100px;
+}
+.zi{
+    z-index: 10;
 }
