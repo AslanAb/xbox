@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #0C0C0C;
 }
 .flex{
     display: flex;
@@ -13,7 +14,7 @@ body{
 .column{
     flex-direction: column;
 }
-center{
+.center{
     justify-content: center;
 }
 .font{
@@ -83,7 +84,7 @@ center{
 .container{
     box-sizing: border-box;
     padding: 0 8%;
-    background-color: #0C0C0C;
+
 }
 .header{
     height: 15vh;
@@ -154,8 +155,78 @@ center{
 .block3{
     position: relative;
     height: 755px;
+    margin-top: 80px;
+    height: 755px;
+    background-image: url(./image/image\ bg.png);
+    background-size: cover;
+    position: relative;
 }
 .block3_p{
-    width: 30%;
+    width: 40%;
     margin-left: 10%;
+}
+.block3_img1{
+    position: absolute;
+    top: 105px;
+    right: 271px;
+    z-index: 2;
+}
+.block3_img2{
+    position: absolute;
+    top: 48px;
+    right: 115px;
+    z-index: 1;
+}
+.block3_img3{
+    position: absolute;
+    top: 438px;
+    right: 72px;
+    z-index: 1;
+}
+.block4_top{
+    margin: 132px 0 70px;
+}
+.block4_mid_l{
+    max-width: 608px;
+    margin-top: 102px;
+    margin-right: 20px;
+}
+.block4_mid_r{
+    max-width: 608px;
+}
+.p6{
+    margin-left: 15%;
+    max-width: 392px;
+    margin-bottom: 142px;
+}
+.img30px{
+    margin-bottom: 20px;
+}
+.imgh702{
+    max-height: 702px;
+}
+.block4_mid_r_green{
+    background-image: url(./image/bg\ shape.png);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.maxwid80{
+    max-width: 80%;
+}
+.p7{
+    max-width: 672px;
+    margin-bottom: 50px;
+}
+.p8{
+    max-width: 392px;
+}
+.block5{
+    position: relative;
+
+    padding-top: 128px;
+
+}
+.img5{
+    position: absolute;
+    top: 433px;
 }
